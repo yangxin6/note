@@ -18,17 +18,17 @@ module.exports = [
   {
     text: '数据结构',
     link: '/DataStruct/',
-    items: [
-      { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-      { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
-    ],
+    // items: [
+    //   { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
+    //   { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+    // ],
   },
   {
     text: '更多',
     link: '/more/',
-    items: [
-      { text: '友情链接', link: '/friends/' },
-    ],
+    // items: [
+    //   { text: '友情链接', link: '/friends/' },
+    // ],
   },
   // { text: '关于', link: '/about/' },
   // {
