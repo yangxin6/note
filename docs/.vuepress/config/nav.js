@@ -24,8 +24,8 @@ module.exports = [
     // ],
   },
   {
-    text: '更多',
-    link: '/more/',
+    text: '收藏夹',
+    link: '/follow/',
     // items: [
     //   { text: '友情链接', link: '/friends/' },
     // ],
