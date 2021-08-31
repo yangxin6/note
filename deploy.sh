@@ -14,12 +14,12 @@ cd docs/.vuepress/dist
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:Coderhyp/hypecode.git 
+  githubUrl=git@github.com:yangxin6/note.git 
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://Coderhyp:${GITHUB_TOKEN}@github.com/Coderhyp/hypecode.git
-  git config --global user.name "Coderhyp"
-  git config --global user.email "slimshadyedc@gmail.com"
+  githubUrl=https://yangxin6:${GITHUB_TOKEN}@github.com/yangxin6/note.git
+  git config --global user.name "yangxin6"
+  git config --global user.email "yangxinnc@163.com"
 fi
 git init
 git add -A
