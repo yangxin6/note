@@ -45,14 +45,14 @@ module.exports = {
 
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
-    name: 'Hypeng', // 必需
-    link: 'https://github.com/Coderhyp', // 可选的
+    name: 'yangxin', // 必需
+    link: 'https://github.com/yangxin6', // 可选的
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: 'https://raw.githubusercontent.com/Coderhyp/Figure-Bed/master/blogImg/IMG_3778.5vranuugo5s0.JPG',
-    name: 'Hypeng',
-    slogan: '写前端是为了在石头岛上捡石头',
+    avatar: '/img/logo.png',
+    name: 'yangxin',
+    slogan: '写博客是为了监督自己',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
