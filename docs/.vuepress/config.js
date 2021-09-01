@@ -16,4 +16,8 @@ module.exports = {
   head,
   plugins,
   themeConfig,
+  extendsMarkdown: md => {
+    md.use(require('markdown-it-katex'))
+    md.linkify.set({ fuzzyEmail: false })
+  }
 }
