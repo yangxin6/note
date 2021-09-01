@@ -11,23 +11,18 @@ module.exports = {
   base: "/blog/", // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
     lineNumbers: true, // 代码行号
-    extendMarkdown: (md) => {
-      md.set({
-        html: true,
-      });
-      md.use(require("markdown-it-katex"));
-    },
   },
-  head: [
-    ['link', {
-        rel: 'stylesheet',
-        href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css'
-    }],
-    ['link', {
-        rel: "stylesheet",
-        href: "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css"
-    }]
-  ],
-  plugins,
+  head,
+  plugins: [
+    [
+      'vuepress-plugin-mathjax',
+      {
+        target: 'svg',
+        macros: {
+          '*': '\\times',
+        },
+      },
+    ],
+  ],,
   themeConfig,
 };
