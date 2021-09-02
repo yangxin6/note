@@ -7,7 +7,8 @@ module.exports = {
       title: 'PointCloud',
       collapsable: false, //是否可折叠，可选的，默认true
       children: [
-        ['01.点云/10.主成分分析','主成分分析'],
+        ['01.点云/01.点云处理学习/','点云处理学习'],
+        ['01.点云/10.点云处理/','点云处理学习'],
         // ['01.JavaScript/02.数据类型转换','数据类型转换'],
         // ['01.JavaScript/03.ES5面向对象','ES5面向对象'],
         // ['01.JavaScript/04.ES6面向对象','ES6面向对象'],
