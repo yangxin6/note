@@ -50,7 +50,7 @@ module.exports = {
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: 'https://raw.githubusercontent.com/yangxin6/blog/master/docs/.vuepress/public/img/logo.jpeg',
+    avatar: 'https://cdn.jsdelivr.net/gh/yangxin6/img-hosting@master/images/logo.4ajmjhiamxs0.jpeg',
     name: 'yangxin',
     slogan: '写博客是为了监督自己',
   },
