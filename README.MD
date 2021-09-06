@@ -2,4 +2,4 @@
 
 学习笔记
 
-[添加latex数学公式插件](https://www.bilibili.com/read/cv12474593)
+添加latex数学公式插件:vuepress-plugin-mathjax
