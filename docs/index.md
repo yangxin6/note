@@ -12,10 +12,6 @@ features: # 可选的
     details: 点云处理相关技术
     link: /PointCloud/ # 可选
     imgUrl: /img/PointCloud.png # 可选
-  - title: 数据结构
-    details: 数据结构学习
-    link: /DataStruct/
-    imgUrl: /img/DataStruct.png
   - title: 机器学习
     details: 机器学习相关算法学习
     link: /MechineLearning/
