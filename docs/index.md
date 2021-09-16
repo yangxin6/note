@@ -20,7 +20,10 @@ features: # 可选的
     details: 机器学习相关算法学习
     link: /MechineLearning/
     imgUrl: https://cdn.jsdelivr.net/gh/yangxin6/img-hosting@master/images/mechinelearning.37jq5e1dwom0.jpeg
-  
+  - title: 深度学习
+    details: 深度学习相关
+    link: /DeepLearning/
+    imgUrl: https://cdn.jsdelivr.net/gh/yangxin6/img-hosting@master/images/Deep-Learning.3xdmc3exe3o0.jpeg
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed
