@@ -8,7 +8,7 @@ module.exports = {
 
   title: "yangxin",
   description: "",
-  base: "/blog/", // 格式：'/<仓库名>/'， 默认'/'
+  base: "/wiki/", // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
     lineNumbers: true, // 代码行号
   },
